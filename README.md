@@ -1,6 +1,6 @@
 # Startup-landing-template
 
-### [Site link](https://gromcode.github.io/startup-landing-template/)
+### [Site link](https://hostlife22.github.io/startup-landing-template/)
 
 Layout supports mobile and desktop versions
 
