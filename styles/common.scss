@@ -1,0 +1,41 @@
+.action-button {
+    width: 160px;
+    height: 48px;
+    padding: 0;
+    font-size: 18px;
+    line-height: 13px;
+    font-weight: 700;
+    color: $text-color-white;
+    background-color: $text-color-blue-link;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+}
+
+.action-learn-more-btn {
+    width: 158px;
+    height: 48px;
+    padding: 0;
+    font-size: 18px;
+    line-height: 13px;
+    font-weight: 700;
+    color: $text-color-blue-link;
+    background-color: $text-color-white;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+}
+
+.hide_desktop {
+    @include for-large-up {
+        display: none;
+    }
+}
+
+.hide_mobile {
+    @include for-large-down {
+        display: none;
+    }
+}

@@ -1,0 +1,136 @@
+.communication {
+    padding: 50px 15px;
+
+    @include for-large-up {
+        padding: 110px 130px 110px 126px;
+    }
+
+    &__row {
+        @include for-large-up {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    &__content {
+        @include for-large-up {
+            max-width: 461px;
+        }
+    }
+
+    &__subtitle {
+        margin: 0;
+        font-size: 22px;
+        line-height: 34px;
+        font-weight: 700;
+        color: $text-color-blue-light;
+        margin-bottom: 17px;
+
+        @include for-large-up {
+            margin-top: 13px;
+            margin-bottom: 24px;
+        }
+    }
+
+    &__title {
+        margin: 0;
+        font-size: 40px;
+        line-height: 40px;
+        font-weight: 700;
+        letter-spacing: -0.357143px;
+        margin-bottom: 18px;
+
+        @include for-large-up {
+            font-size: 56px;
+            line-height: 56px;
+            margin-bottom: 30px;
+            letter-spacing: -0.5px;
+        }
+    }
+
+    &__text {
+        margin: 0;
+        font-size: 24px;
+        line-height: 34px;
+        margin-bottom: 30px;
+
+        @include for-large-up {
+            margin-bottom: 39px;
+        }
+    }
+
+    &__button {
+        margin-bottom: 40px;
+
+        @include for-large-down {
+            width: 100%;
+        }
+    }
+
+    &__card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        @include for-large-up {
+            margin-right: 63px;
+        }
+    }
+    &__image {
+        @include for-large-down {
+            max-width: 290px;
+        }
+    }
+
+    &__caption {
+        margin: 0;
+        font-size: 14px;
+        line-height: 22px;
+        color: $text-color-light-grey;
+        margin-top: 15px;
+        margin-bottom: 40px;
+
+        @include for-large-up {
+            margin-bottom: 26px;
+        }
+    }
+    &__line {
+        width: 150px;
+        height: 1px;
+        background-color: $color-light-line;
+    }
+}
+
+.communication {
+    &__article {
+        @include for-large-up {
+            max-width: 360px;
+        }
+    }
+    &__articles {
+        display: flex;
+        flex-direction: column;
+
+        @include for-large-up {
+            flex-direction: row;
+            margin-top: 41px;
+            justify-content: space-between;
+        }
+    }
+}
+.article-page {
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 33px;
+
+    @include for-large-up {
+        margin-top: 0;
+    }
+    &__name {
+        margin: 0;
+        margin-bottom: 8px;
+    }
+    &__link {
+        font-weight: 700;
+        color: $text-color-blue-link;
+    }
+}
