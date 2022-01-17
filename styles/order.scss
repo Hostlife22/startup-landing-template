@@ -17,11 +17,15 @@
 
     &__illustration {
         max-width: 200px;
+				display: block;
+				margin: 0 auto;
 
         @include for-large-up {
             height: 296px;
             max-width: 269px;
+						margin: 0;
             margin-right: 123.59px;
+						display: inline-block;
         }
     }
 
